@@ -41,8 +41,6 @@ print(Sys.time()-strt)
 
 #####===version 2 con doParellel====
 #  version 2 con doParellel
-library(foreach)
-library(doParallel)
 cl<-makeCluster(40)
 registerDoParallel(cl)
 strt<-Sys.time()
